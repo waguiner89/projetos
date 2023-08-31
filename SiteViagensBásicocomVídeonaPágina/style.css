@@ -1,0 +1,86 @@
+body{
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: cadetblue;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+header{
+    background-color: darkorange;
+}
+
+section, footer, video{
+    margin: 40px;
+}
+
+nav{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    height: 60px;
+    background-color: whitesmoke;
+    padding-right: 40px;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav li{
+    float: left;
+}
+
+nav li a{
+    padding: 10px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 63px;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: chocolate;
+    font-weight: 600;
+}
+
+#pacotes .figuras figure{
+    display: inline-block;
+}
+
+#pacotes .figuras, #pacotes .videos{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+table thead th{
+    background-color: darkorange;
+    color: antiquewhite;
+}
+
+table td{
+    color: darkblue;
+    padding: 5px;
+    font-weight: 600;
+}
+
+table tr:nth-child(even){
+    background-color: burlywood;
+}
+
+table tr:nth-child(odd){
+    background-color: cornsilk;
+}

@@ -1,0 +1,95 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tit-principal:first-letter{
+    font-weight: bold;
+}
+
+p:first-line{
+    font-style: italic;
+}
+
+.tit-principal{
+    color: red;
+    text-align: center;
+    background-color: black;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.iconbarbprincipal {
+    width: 5%;
+    margin: 0 0 0 150px;
+    float: left;
+}
+
+.principal{
+    background: #FEFEFE;
+}
+
+.principal p{
+    margin: 0 150px 1em;
+}
+
+#nossam{
+    font-style: italic;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.mapa p, iframe{
+    text-align: center;
+    margin: 0 370px 1em;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(white, gray);
+}
+
+.beneficios{
+    margin: 0 auto;
+    background: #888888;
+}
+
+.beneficios ul{
+    display: inline-block;
+    vertical-align: 40px;
+    margin-left: -290px;
+}
+
+.imgbenef{
+    margin: 0 370px;
+    width: 20%;
+    box-shadow: 10px 5px 5px black;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens:before{
+    content: "✵";
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.video{
+    margin: 10px;
+}
+
+@media screen and (max-width:480px){
+    .caixa, .principal{
+        width: auto;
+    }
+}

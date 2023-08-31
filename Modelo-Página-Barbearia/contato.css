@@ -1,0 +1,108 @@
+body{
+background-image: url(barber.png);
+}
+
+header{
+    background: #BBBBBB;
+}
+img{
+    opacity: 0.7;
+    width: 200px;
+}
+.caixa{
+    width: 940px;
+    margin: auto;
+}
+nav{
+    position: absolute;
+    top: 15%;
+    padding-left: 50%;
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aqua;
+    text-decoration: underline;
+    font-size: 21px;
+}
+nav a:active{
+    color: green;
+}
+
+footer{
+    text-align: center;
+    background: url(bg.png);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+footer img{
+    width: 40px;
+    padding-bottom: 10px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    color: yellow;
+    text-shadow: 
+                 -1px -1px 0px black,
+                 -1px  1px 0px black,
+                  1px -1px 0px black,
+                  1px  0px 0px black;
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    cursor: pointer;
+}
+
+#nome{
+    width: 30%;
+}
+#botao{
+    border-radius: 5px;
+    background: yellow;
+}
+
+#botao:hover{
+    color: green;
+    background: yellowgreen;
+    transition: 0.5s all;
+    cursor: pointer;
+    transform: rotate(360deg) scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+    border: 1px solid black;
+}
+thead{
+    background: burlywood;
+    font-weight: bold;
+}
+tbody{
+    background: brown;
+}
+td{
+    padding: 10px 10px;
+}

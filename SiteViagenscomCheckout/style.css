@@ -1,0 +1,42 @@
+header p{
+    color: darkorange;
+    font-weight: 900;
+}
+
+h1{
+    font-size: 63px;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+.carousel-caption h5{
+    font-size: 40px;
+    color: gold;
+    text-shadow: 2px 2px 2px black;
+}
+
+h3{
+    text-align: center;
+    background-color: cadetblue;
+}
+
+.textoPrincipal, .card-footer{
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-subtitle{
+    text-align: left;
+}
